@@ -9,4 +9,4 @@ RUN pip install --no-cache-dir --upgrade -r requirements.txt
 
 COPY . /app
 
-CMD []
+CMD ["python", "src/server.py"]
