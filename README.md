@@ -1,6 +1,6 @@
 # Dockerized Repository Example
 
-## Breakdown
+## Docker Explanation
 
 Generally, the project repository would consist of:
 
@@ -16,3 +16,9 @@ For example, a simple project might have 3 separate containers:
 3. Backend database instance
 
 The `docker-compose.yaml` file, used by the `docker compose` command, defines how the containers should be set up, and how they can communicate with one another.
+
+## Example Project Breakdown
+
+This application has 3 simple components. The server, client, and database.
+
+The application does 1 simple thing. It displays a stored counter variable in the database to the client, who can increment it.
